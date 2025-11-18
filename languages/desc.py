@@ -1,123 +1,117 @@
 DESCRIPTIONS = {
-    'ru': "📸 Сохрани память в каждом кадре.\n🤖 Фото Реставратор AI оживит старые и испорченные снимки.\n✨ Нейросеть бережно восстанавливает лица, цвета и детали — как будто фото сделано вчера.",
-    'en': "📸 Preserve every memory in each frame.\n🤖 Photo Restorer AI brings old and damaged photos back to life.\n✨ The neural network carefully restores faces, colors, and details — as if the photo was taken yesterday.",
-    'kk': "📸 Әр кадрда естелікті сақта.\n🤖 Photo Restavrator AI ескі және бүлінген фотоларды қайта жандандырады.\n✨ Нейрожелі беттерді, түстерді және бөлшектерді мұқият қалпына келтіреді — сурет кеше түсірілгендей.",
-    'de': "📸 Bewahre Erinnerungen in jedem Bild.\n🤖 Photo Restorer AI erweckt alte und beschädigte Fotos zum Leben.\n✨ Das neuronale Netz stellt Gesichter, Farben und Details liebevoll wieder her – als wäre das Foto gestern aufgenommen worden.",
-    'fr': "📸 Préserve chaque souvenir dans chaque image.\n🤖 Photo Restorer AI redonne vie aux photos anciennes et abîmées.\n✨ L’IA restaure avec soin visages, couleurs et détails — comme si la photo avait été prise hier.",
-    'it': "📸 Conserva ogni ricordo in ogni scatto.\n🤖 Photo Restorer AI ridà vita a foto vecchie e danneggiate.\n✨ La rete neurale ripristina con cura volti, colori e dettagli — come se la foto fosse stata scattata ieri.",
-    'es': "📸 Conserva la memoria en cada foto.\n🤖 Photo Restorer AI devuelve la vida a fotos antiguas y dañadas.\n✨ La red neuronal restaura cuidadosamente rostros, colores y detalles — como si la foto se hubiera tomado ayer.",
-    'nl': "📸 Bewaar herinneringen in elk beeld.\n🤖 Photo Restorer AI blaast oude en beschadigde foto’s nieuw leven in.\n✨ Het neurale netwerk herstelt zorgvuldig gezichten, kleuren en details — alsof de foto gisteren is gemaakt.",
-    'sv': "📸 Bevara minnen i varje bildruta.\n🤖 Photo Restorer AI väcker gamla och skadade foton till liv igen.\n✨ Nätverket återställer varsamt ansikten, färger och detaljer — som om fotot togs igår.",
-    'fi': "📸 Säilytä muisto jokaisessa kuvassa.\n🤖 Photo Restorer AI herättää vanhat ja vaurioituneet valokuvat eloon.\n✨ Neuroverkko palauttaa kasvot, värit ja yksityiskohdat huolellisesti — kuin kuva olisi otettu eilen.",
-    'no': "📸 Bevar minnene i hvert bilde.\n🤖 Photo Restorer AI bringer gamle og skadede bilder til liv igjen.\n✨ Nevralt nettverk gjenoppretter ansikter, farger og detaljer varsomt – som om bildet ble tatt i går.",
-    'he': "📸 שמור את הזיכרון בכל תמונה.\n🤖 Photo Restorer AI מחייה תמונות ישנות ופגומות.\n✨ הרשת העצבית משחזרת בקפידה פנים, צבעים ופרטים – כאילו התמונה צולמה אתמול.",
-    'ko': "📸 모든 사진에 추억을 담으세요.\n🤖 Photo Restorer AI가 오래된 손상된 사진을 되살립니다.\n✨ 신경망이 얼굴, 색상 및 세부 정보를 섬세하게 복원합니다 — 마치 어제 찍은 사진처럼요.",
-    'ja': "📸 すべての写真に思い出を残そう。\n🤖 Photo Restorer AIが古く傷ついた写真を蘇らせます。\n✨ ニューラルネットが顔・色・細部を丁寧に修復します — まるで昨日撮った写真のように。",
-    'cs': "📸 Zachovej vzpomínky v každém snímku.\n🤖 Photo Restorer AI oživí staré a poškozené fotografie.\n✨ Neuronová síť pečlivě obnovuje tváře, barvy a detaily — jako by byla fotografie pořízena včera.",
-    'sk': "📸 Zachovaj spomienky v každom zábere.\n🤖 Photo Restorer AI oživí staré a poškodené fotografie.\n✨ Neurónová sieť starostlivo obnovuje tváre, farby a detaily — akoby bola fotka odfotená včera.",
-    'sl': "📸 Ohranite spomine v vsakem posnetku.\n🤖 Photo Restorer AI oživi stare in poškodovane fotografije.\n✨ Nevronska mreža skrbno obnovi obraze, barve in podrobnosti — kot da bi bila fotografija posneta včeraj.",
-    'pl': "📸 Zachowaj wspomnienia w każdym kadrze.\n🤖 Photo Restorer AI ożywia stare i zniszczone zdjęcia.\n✨ Sieć neuronowa starannie odtwarza twarze, kolory i detale — jakby zdjęcie zrobiono wczoraj.",
-    'pt': "📸 Guarde memórias em cada foto.\n🤖 Photo Restorer AI dá vida a fotos antigas e danificadas.\n✨ A rede neural restaura rostos, cores e detalhes com cuidado — como se a foto tivesse sido tirada ontem.",
-    'hr': "📸 Sačuvaj uspomene u svakom kadru.\n🤖 Photo Restorer AI oživljava stare i oštećene fotografije.\n✨ Neuronska mreža pažljivo obnavlja lica, boje i detalje — kao da je fotografija snimljena jučer.",
-    'ar': "📸 احفظ الذكريات في كل صورة.\n🤖 Photo Restorer AI يعيد الحياة للصور القديمة والتالفة.\n✨ الشبكة العصبية تُرمم الوجوه والألوان والتفاصيل بعناية — كأن الصورة التقطت بالأمس.",
-    'be': "📸 Захоўвай успаміны ў кожным кадры.\n🤖 Photo Restorer AI ажыўляе старыя і пашкоджаныя фотаздымкі.\n✨ Нейрасетка далікатна аднаўляе твары, колеры і дэталі — як быццам фота зроблена ўчора.",
-    'ca': "📸 Conserva cada record a cada fotografia.\n🤖 Photo Restorer AI reviu fotos antigues i malmeses.\n✨ La xarxa neuronal restaura amb cura rostres, colors i detalls — com si la foto s’hagués fet ahir.",
-    'hu': "📸 Őrizd meg az emlékeket minden képen.\n🤖 Photo Restorer AI életre kelti a régi és sérült fotókat.\n✨ A neurális háló finoman helyreállítja az arcokat, színeket és részleteket — mintha tegnap készült volna a kép.",
-    'id': "📸 Simpan kenangan di setiap foto.\n🤖 Photo Restorer AI menghidupkan kembali foto lama dan rusak.\n✨ Jaringan saraf memulihkan wajah, warna, dan detail dengan hati-hati — seolah foto diambil kemarin.",
-    'ms': "📸 Simpan kenangan dalam setiap gambar.\n🤖 Photo Restorer AI menghidupkan semula gambar lama dan rosak.\n✨ Rangkaian neural memulihkan wajah, warna dan butiran dengan teliti — seolah-olah gambar diambil semalam.",
-    'fa': "📸 خاطرات را در هر قاب حفظ کن.\n🤖 Photo Restorer AI عکس‌های قدیمی و آسیب‌دیده را زنده می‌کند.\n✨ شبکه عصبی با دقت چهره‌ها، رنگ‌ها و جزئیات را بازسازی می‌کند — گویی عکس دیروز گرفته شده است.",
-    'ro': "📸 Păstrează amintirile în fiecare cadru.\n🤖 Photo Restorer AI readuce la viață fotografiile vechi și deteriorate.\n✨ Rețeaua neuronală restaurează cu grijă fețele, culorile și detaliile — ca și cum fotografia ar fi fost făcută ieri.",
-    'sr': "📸 Сачувај успомене у сваком кадру.\n🤖 Photo Restorer AI оживљава старе и оштећене фотографије.\n✨ Неуронска мрежа пажљиво обнавља лица, боје и детаље — као да је фотографија снимљена јуче.",
-    'tr': "📸 Her karede anılarını koru.\n🤖 Photo Restorer AI eski ve hasarlı fotoğrafları hayata döndürür.\n✨ Sinir ağı yüzleri, renkleri ve detayları özenle onarır — sanki fotoğraf dün çekilmiş gibi.",
-    'uk': "📸 Збережи спогади в кожному кадрі.\n🤖 Photo Restorer AI оживляє старі та пошкоджені фото.\n✨ Нейромережа дбайливо відновлює обличчя, кольори й деталі — ніби фото зроблено вчора.",
-    'uz': "📸 Har bir kadrda xotirani saqla.\n🤖 Photo Restorer AI eski va shikastlangan suratlarni jonlantiradi.\n✨ Neyrotarmoq yuzlarni, ranglarni va tafsilotlarni ehtiyotkorlik bilan tiklaydi — go‘yo surat kecha olingandek.",
-    'hi': "📸 हर तस्वीर में यादें संजोएं।\n🤖 Photo Restorer AI पुरानी और क्षतिग्रस्त तस्वीरों को फिर से जीवित करता है।\n✨ न्यूरल नेटवर्क चेहरों, रंगों और विवरणों को सावधानी से बहाल करता है — जैसे तस्वीर कल ही ली गई हो।",
-    'vi': "📸 Giữ ký ức trong từng khung hình.\n🤖 Photo Restorer AI hồi sinh những bức ảnh cũ và hư hại.\n✨ Mạng nơ-ron khôi phục khuôn mặt, màu sắc và chi tiết một cách tinh tế — như thể bức ảnh được chụp hôm qua.",
-    'th': "📸 เก็บความทรงจำไว้ในทุกภาพ.\n🤖 Photo Restorer AI คืนชีวิตให้กับภาพเก่าและภาพที่เสียหาย.\n✨ เครือข่ายประสาทเทียมฟื้นฟูใบหน้า สี และรายละเอียดอย่างประณีต — ราวกับถ่ายเมื่อวานนี้.",
-    'zh': "📸 保存每一帧中的回忆。\n🤖 Photo Restorer AI 让旧的、受损的照片重获新生。\n✨ 神经网络精心修复面部、颜色和细节——仿佛照片是在昨天拍摄的。",
-    'el': "📸 Κράτησε τις αναμνήσεις σε κάθε καρέ.\n🤖 Το Photo Restorer AI ζωντανεύει παλιές και κατεστραμμένες φωτογραφίες.\n✨ Το νευρωνικό δίκτυο αποκαθιστά προσεκτικά πρόσωπα, χρώματα και λεπτομέρειες — σαν να τραβήχτηκε η φωτογραφία χθες."
+    "ru": "🍌 Nano Banana AI Photoshop — твой карманный Photoshop в Telegram!\n📸 Загрузите фото → ✍️ напишите, что хотите изменить → 🤖 получите профессиональную обработку за секунды!\n✨ Улучшение качества, 🎨 стилизация, 🔄 замена объектов, 🤩 ретушь и многое другое.\n⚡ Быстро, удобно и максимально точно — бот делает всё за вас.\nПопробуйте и увидите магию Nano Banana AI!",
+
+    "en": "🍌 Nano Banana AI Photoshop — your pocket Photoshop in Telegram!\n📸 Upload a photo → ✍️ describe what you want to change → 🤖 get a professionally edited result in seconds!\n✨ Quality enhancement, 🎨 stylization, 🔄 object replacement, 🤩 retouching, and more.\n⚡ Fast, convenient, and highly accurate — the bot does everything for you.\nTry it and see the magic of Nano Banana AI!",
+
+    "kk": "🍌 Nano Banana AI Photoshop — Telegram-дағы қалтаңыздағы Photoshop!\n📸 Фотосуретті жүктеңіз → ✍️ өзгерткіңіз келгенін жазыңыз → 🤖 бірнеше секундта кәсіби өңделген нәтижені алыңыз!\n✨ Сапаны жақсарту, 🎨 стильдеу, 🔄 объектілерді ауыстыру, 🤩 ретушь және тағы басқалары.\n⚡ Жылдам, ыңғайлы және дәл — бәрін бот өзі орындайды.\nҚолданып көріңіз, Nano Banana AI сиқырын байқаңыз!",
+
+    "de": "🍌 Nano Banana AI Photoshop — dein Photoshop für die Hosentasche in Telegram!\n📸 Lade ein Foto hoch → ✍️ beschreibe, was geändert werden soll → 🤖 erhalte eine professionelle Bearbeitung in Sekunden!\n✨ Qualitätsverbesserung, 🎨 Stilisierung, 🔄 Objektaustausch, 🤩 Retusche und mehr.\n⚡ Schnell, bequem und äußerst präzise — der Bot erledigt alles für dich.\nProbiere es aus und erlebe die Magie von Nano Banana AI!",
+
+    "fr": "🍌 Nano Banana AI Photoshop — votre Photoshop de poche dans Telegram !\n📸 Téléchargez une photo → ✍️ décrivez ce que vous voulez modifier → 🤖 obtenez un résultat professionnel en quelques secondes !\n✨ Amélioration de la qualité, 🎨 stylisation, 🔄 remplacement d’objets, 🤩 retouche et plus encore.\n⚡ Rapide, pratique et très précis — le bot s’occupe de tout.\nEssayez et découvrez la magie de Nano Banana AI !",
+
+    "it": "🍌 Nano Banana AI Photoshop — il tuo Photoshop tascabile su Telegram!\n📸 Carica una foto → ✍️ descrivi cosa vuoi modificare → 🤖 ottieni un risultato professionale in pochi secondi!\n✨ Miglioramento qualità, 🎨 stilizzazione, 🔄 sostituzione oggetti, 🤩 ritocco e altro.\n⚡ Veloce, comodo e preciso — il bot fa tutto per te.\nProvalo e scopri la magia di Nano Banana AI!",
+
+    "es": "🍌 Nano Banana AI Photoshop — ¡tu Photoshop de bolsillo en Telegram!\n📸 Sube una foto → ✍️ describe lo que quieres cambiar → 🤖 recibe una edición profesional en segundos.\n✨ Mejora de calidad, 🎨 estilización, 🔄 reemplazo de objetos, 🤩 retoque y más.\n⚡ Rápido, cómodo y preciso — el bot lo hace todo por ti.\n¡Pruébalo y descubre la magia de Nano Banana AI!",
+
+    "nl": "🍌 Nano Banana AI Photoshop — jouw zakformaat Photoshop in Telegram!\n📸 Upload een foto → ✍️ beschrijf wat je wilt aanpassen → 🤖 ontvang binnen seconden een professioneel resultaat.\n✨ Kwaliteitsverbetering, 🎨 stylisatie, 🔄 objectvervanging, 🤩 retouche en meer.\n⚡ Snel, handig en zeer nauwkeurig — de bot doet alles voor je.\nProbeer het en ervaar de magie van Nano Banana AI!",
+
+    "sv": "🍌 Nano Banana AI Photoshop — din fick-Photoshop i Telegram!\n📸 Ladda upp ett foto → ✍️ skriv vad du vill ändra → 🤖 få en professionell redigering på några sekunder.\n✨ Förbättrad kvalitet, 🎨 stilisering, 🔄 objektbyte, 🤩 retuschering och mer.\n⚡ Snabbt, smidigt och mycket exakt — boten gör allt åt dig.\nProva och upplev magin med Nano Banana AI!",
+
+    "fi": "🍌 Nano Banana AI Photoshop — tasku-Photoshopisi Telegramissa!\n📸 Lataa kuva → ✍️ kerro mitä haluat muuttaa → 🤖 saat ammattimaisen tuloksen sekunneissa.\n✨ Laadunparannus, 🎨 tyylittely, 🔄 objektien vaihto, 🤩 retusointi ja paljon muuta.\n⚡ Nopea, kätevä ja erittäin tarkka — botti hoitaa kaiken puolestasi.\nKokeile ja näe Nano Banana AI:n taika!",
+
+    "no": "🍌 Nano Banana AI Photoshop — din lomme-Photoshop i Telegram!\n📸 Last opp et bilde → ✍️ skriv hva du vil endre → 🤖 få profesjonell redigering på sekunder.\n✨ Kvalitetsforbedring, 🎨 stilisering, 🔄 objektbytte, 🤩 retusj og mer.\n⚡ Raskt, praktisk og nøyaktig — boten gjør alt for deg.\nPrøv det og opplev Nano Banana AIs magi!",
+
+    "he": "🍌 Nano Banana AI Photoshop — הפוטושופ שבכיס שלכם בתוך טלגרם!\n📸 העלו צילום → ✍️ כתבו מה תרצו לשנות → 🤖 וקבלו תוצאה מקצועית תוך שניות!\n✨ שיפור איכות, 🎨 סגנון, 🔄 החלפת אובייקטים, 🤩 ריטוש ועוד.\n⚡ מהיר, נוח ומדויק — הבוט עושה הכול בשבילכם.\nנסו ותגלו את הקסם של Nano Banana AI!",
+
+    "ko": "🍌 Nano Banana AI Photoshop — 텔레그램 속 당신의 휴대용 포토샵!\n📸 사진을 업로드하세요 → ✍️ 변경하고 싶은 내용을 입력하세요 → 🤖 몇 초 만에 전문가 수준의 결과를 받아보세요!\n✨ 품질 향상, 🎨 스타일 변환, 🔄 객체 교체, 🤩 리터칭 등 다양하게 지원합니다.\n⚡ 빠르고 편리하며 매우 정확합니다 — 봇이 모든 작업을 대신합니다.\n지금 사용해보고 Nano Banana AI의 마법을 느껴보세요!",
+
+    "ja": "🍌 Nano Banana AI Photoshop — Telegramで使えるポケットPhotoshop！\n📸 写真をアップロード → ✍️ 変更したい内容を入力 → 🤖 数秒でプロ品質の仕上がり！\n✨ 画質向上、🎨 スタイライズ、🔄 オブジェクト差し替え、🤩 レタッチなど多機能。\n⚡ 速くて便利、そして高精度 — すべてボットが自動で行います。\nぜひ試して、Nano Banana AIの魔法を体験してください！",
+
+    "cs": "🍌 Nano Banana AI Photoshop — váš kapesní Photoshop v Telegramu!\n📸 Nahrajte fotografii → ✍️ napište, co chcete změnit → 🤖 získejte profesionální úpravu během pár sekund.\n✨ Vylepšení kvality, 🎨 stylizace, 🔄 výměna objektů, 🤩 retuš a další.\n⚡ Rychlé, pohodlné a velmi přesné — bot udělá vše za vás.\nVyzkoušejte a poznejte kouzlo Nano Banana AI!",
+
+    "sk": "🍌 Nano Banana AI Photoshop — váš vreckový Photoshop v Telegrame!\n📸 Nahrajte fotku → ✍️ napíšte, čo chcete zmeniť → 🤖 získajte profesionálnu úpravu za pár sekúnd!\n✨ Zlepšenie kvality, 🎨 štýlizácia, 🔄 výmena objektov, 🤩 retuš a ďalšie.\n⚡ Rýchle, pohodlné a presné — bot všetko spraví za vás.\nVyskúšajte a objavte kúzlo Nano Banana AI!",
+
+    "sl": "🍌 Nano Banana AI Photoshop — vaš žepni Photoshop v Telegramu!\n📸 Naložite fotografijo → ✍️ opišite, kaj želite spremeniti → 🤖 prejmite profesionalno obdelavo v nekaj sekundah.\n✨ Izboljšanje kakovosti, 🎨 stilizacija, 🔄 menjava objektov, 🤩 retuširanje itd.\n⚡ Hitro, priročno in natančno — bot naredi vse namesto vas.\nPreizkusite in doživite čarovnijo Nano Banana AI!",
+
+    "pl": "🍌 Nano Banana AI Photoshop — Twój kieszonkowy Photoshop w Telegramie!\n📸 Prześlij zdjęcie → ✍️ opisz, co chcesz zmienić → 🤖 otrzymaj profesjonalną edycję w kilka sekund!\n✨ Poprawa jakości, 🎨 stylizacja, 🔄 podmiana obiektów, 🤩 retusz i więcej.\n⚡ Szybko, wygodnie i bardzo dokładnie — bot zrobi wszystko za Ciebie.\nWypróbuj i zobacz magię Nano Banana AI!",
+
+    "pt": "🍌 Nano Banana AI Photoshop — seu Photoshop de bolso no Telegram!\n📸 Envie uma foto → ✍️ descreva o que deseja alterar → 🤖 receba uma edição profissional em segundos!\n✨ Melhoria de qualidade, 🎨 estilização, 🔄 troca de objetos, 🤩 retoque e mais.\n⚡ Rápido, prático e preciso — o bot faz tudo por você.\nExperimente e descubra a magia do Nano Banana AI!",
+
+    "hr": "🍌 Nano Banana AI Photoshop — vaš džepni Photoshop u Telegramu!\n📸 Učitajte fotografiju → ✍️ napišite što želite promijeniti → 🤖 dobijte profesionalnu obradu u nekoliko sekundi.\n✨ Poboljšanje kvalitete, 🎨 stilizacija, 🔄 zamjena objekata, 🤩 retuširanje i još mnogo toga.\n⚡ Brzo, praktično i precizno — bot sve odrađuje umjesto vas.\nIsprobajte i otkrijte čaroliju Nano Banana AI!",
+
+    "ar": "🍌 Nano Banana AI Photoshop — فوتوشوب في جيبك داخل تيليجرام!\n📸 ارفع صورة → ✍️ اكتب ما تريد تعديله → 🤖 واحصل على نتيجة احترافية خلال ثوانٍ.\n✨ تحسين الجودة، 🎨 إضافة الأنماط، 🔄 استبدال العناصر، 🤩 التعديل والمزيد.\n⚡ سريع، سهل ودقيق — البوت يقوم بكل شيء نيابةً عنك.\nجرّبه واكتشف سحر Nano Banana AI!",
+
+    "be": "🍌 Nano Banana AI Photoshop — ваш кішэнны Photoshop у Telegram!\n📸 Загрузіце фота → ✍️ напішыце, што хочаце змяніць → 🤖 атрымайце прафесійную апрацоўку за некалькі секунд.\n✨ Павышэнне якасці, 🎨 стылізацыя, 🔄 замена аб’ектаў, 🤩 рэтуш і іншае.\n⚡ Хутка, зручна і дакладна — бот зробіць усё за вас.\nПаспрабуйце і адчуйце магію Nano Banana AI!",
+
+    "ca": "🍌 Nano Banana AI Photoshop — el teu Photoshop de butxaca a Telegram!\n📸 Puja una foto → ✍️ explica què vols canviar → 🤖 rep una edició professional en segons!\n✨ Millora de qualitat, 🎨 estilització, 🔄 substitució d’objectes, 🤩 retoc i més.\n⚡ Ràpid, còmode i molt precís — el bot ho fa tot per tu.\nProva-ho i descobreix la màgia de Nano Banana AI!",
+
+    "hu": "🍌 Nano Banana AI Photoshop — a zseb-Photoshopped a Telegramban!\n📸 Tölts fel egy fotót → ✍️ írd le, mit szeretnél változtatni → 🤖 és másodpercek alatt profi eredményt kapsz!\n✨ Minőségjavítás, 🎨 stilizálás, 🔄 objektumcsere, 🤩 retusálás és sok más.\n⚡ Gyors, kényelmes és pontos — a bot mindent elvégez helyetted.\nPróbáld ki, és fedezd fel a Nano Banana AI varázsát!",
+
+    "id": "🍌 Nano Banana AI Photoshop — Photoshop saku Anda di Telegram!\n📸 Unggah foto → ✍️ tulis apa yang ingin Anda ubah → 🤖 dapatkan hasil edit profesional dalam hitungan detik!\n✨ Peningkatan kualitas, 🎨 penstilan, 🔄 penggantian objek, 🤩 retouching dan lainnya.\n⚡ Cepat, praktis, dan sangat akurat — bot mengerjakan semuanya untuk Anda.\nCobalah dan rasakan keajaiban Nano Banana AI!",
+
+    "ms": "🍌 Nano Banana AI Photoshop — Photoshop poket anda dalam Telegram!\n📸 Muat naik gambar → ✍️ tulis apa yang ingin diubah → 🤖 dapatkan hasil suntingan profesional dalam beberapa saat!\n✨ Penambahbaikan kualiti, 🎨 penggayaan, 🔄 penggantian objek, 🤩 retus dan banyak lagi.\n⚡ Pantas, mudah dan tepat — bot mengurus semuanya untuk anda.\nCuba dan alami keajaiban Nano Banana AI!",
+
+    "fa": "🍌 Nano Banana AI Photoshop — فتوشاپ جیبی شما در تلگرام!\n📸 عکس را آپلود کنید → ✍️ بنویسید چه تغییری می‌خواهید → 🤖 و در چند ثانیه یک نتیجه حرفه‌ای دریافت کنید!\n✨ بهبود کیفیت، 🎨 استایل‌دهی، 🔄 تعویض اشیا، 🤩 رتوش و موارد دیگر.\n⚡ سریع، راحت و بسیار دقیق — ربات همه کارها را برای شما انجام می‌دهد.\nامتحان کنید و جادوی Nano Banana AI را ببینید!",
+
+    "ro": "🍌 Nano Banana AI Photoshop — Photoshop-ul tău de buzunar în Telegram!\n📸 Încarcă o fotografie → ✍️ scrie ce dorești să modifici → 🤖 primești o editare profesională în câteva secunde!\n✨ Îmbunătățirea calității, 🎨 stilizare, 🔄 înlocuire obiecte, 🤩 retușare și multe altele.\n⚡ Rapid, comod și precis — botul face totul pentru tine.\nÎncearcă și descoperă magia Nano Banana AI!",
+
+    "sr": "🍌 Nano Banana AI Photoshop — ваш џепни Photoshop у Telegramu!\n📸 Отпремите фотографију → ✍️ напишите шта желите да измените → 🤖 добијте професионалну обраду за неколико секунди!\n✨ Побољшање квалитета, 🎨 стил, 🔄 замена објеката, 🤩 ретуш и још много тога.\n⚡ Брзо, практично и прецизно — бот ради све уместо вас.\nПробајте и осетите магију Nano Banana AI!",
+
+    "tr": "🍌 Nano Banana AI Photoshop — Telegram’daki cebinizdeki Photoshop!\n📸 Fotoğraf yükleyin → ✍️ neyi değiştirmek istediğinizi yazın → 🤖 saniyeler içinde profesyonel bir sonuç alın!\n✨ Kalite artırma, 🎨 stil oluşturma, 🔄 nesne değiştirme, 🤩 rötuş ve daha fazlası.\n⚡ Hızlı, pratik ve son derece doğru — bot her şeyi sizin için yapar.\nDeneyin ve Nano Banana AI büyüsünü görün!",
+
+    "uk": "🍌 Nano Banana AI Photoshop — ваш кишеньковий Photoshop у Telegram!\n📸 Завантажте фото → ✍️ напишіть, що хочете змінити → 🤖 отримайте професійну обробку за секунди.\n✨ Покращення якості, 🎨 стилізація, 🔄 заміна об’єктів, 🤩 ретуш та інше.\n⚡ Швидко, зручно й точно — бот зробить усе за вас.\nСпробуйте й відчуйте магію Nano Banana AI!",
+
+    "uz": "🍌 Nano Banana AI Photoshop — Telegramdagi cho‘ntak Photoshop'ingiz!\n📸 Rasm yuklang → ✍️ o‘zgartirmoqchi bo‘lgan narsani yozing → 🤖 bir necha soniyada professional natija oling!\n✨ Sifatni yaxshilash, 🎨 uslub berish, 🔄 obyekt almashtirish, 🤩 retush va boshqalar.\n⚡ Tez, qulay va aniq — bot hammasini o‘zi bajaradi.\nSinab ko‘ring va Nano Banana AI sehrini his qiling!",
+
+    "hi": "🍌 Nano Banana AI Photoshop — आपका टेलीग्राम में पॉकेट फ़ोटोशॉप!\n📸 फोटो अपलोड करें → ✍️ लिखें कि क्या बदलना चाहते हैं → 🤖 कुछ ही सेकंड में पेशेवर परिणाम पाएं!\n✨ गुणवत्ता सुधार, 🎨 स्टाइलाइज़ेशन, 🔄 ऑब्जेक्ट बदलना, 🤩 रिटचिंग और भी बहुत कुछ।\n⚡ तेज़, आसान और बेहद सटीक — बॉट आपके लिए सब कुछ कर देता है।\nइसे आज़माएं और Nano Banana AI का जादू देखें!",
+
+    "vi": "🍌 Nano Banana AI Photoshop — Photoshop bỏ túi của bạn trên Telegram!\n📸 Tải ảnh lên → ✍️ mô tả điều bạn muốn thay đổi → 🤖 nhận kết quả chuyên nghiệp chỉ trong vài giây!\n✨ Nâng cao chất lượng, 🎨 tạo phong cách, 🔄 thay thế đối tượng, 🤩 chỉnh sửa và nhiều hơn nữa.\n⚡ Nhanh, tiện lợi và cực kỳ chính xác — bot làm tất cả cho bạn.\nHãy thử và cảm nhận phép màu của Nano Banana AI!",
+
+    "th": "🍌 Nano Banana AI Photoshop — Photoshop ขนาดพกพาของคุณบน Telegram!\n📸 อัปโหลดรูป → ✍️ เขียนสิ่งที่ต้องการปรับแต่ง → 🤖 รับผลลัพธ์ระดับมืออาชีพในไม่กี่วินาที!\n✨ ปรับคุณภาพ, 🎨 สไตล์, 🔄 เปลี่ยนวัตถุ, 🤩 รีทัช และอื่น ๆ อีกมากมาย\n⚡ รวดเร็ว สะดวก และแม่นยำ — บ็อตทำให้ทุกอย่างแทนคุณ\nลองเลย แล้วคุณจะเห็นความมหัศจรรย์ของ Nano Banana AI!",
+
+    "zh": "🍌 Nano Banana AI Photoshop — 你在 Telegram 里的口袋版 Photoshop！\n📸 上传照片 → ✍️ 描述你想要修改的内容 → 🤖 几秒内即可获得专业级效果！\n✨ 画质提升、🎨 风格化、🔄 对象替换、🤩 精修等多种功能。\n⚡ 快速、方便且精准 — 机器人会替你完成一切。\n试试看，感受 Nano Banana AI 的魔力！"
 }
+
 
 
 SHORT_DESCRIPTIONS = {
-    'ru': "🤖 Восстанови старые фото с помощью нейросети — как будто они сделаны вчера!",
-    'en': "🤖 Restore old photos with AI — as if they were taken yesterday!",
-    'kk': "🤖 Ескі фотоларды AI арқылы қалпына келтір — кеше түскендей болсын!",
-    'de': "🤖 Stelle alte Fotos mit KI wieder her – als wären sie gestern aufgenommen!",
-    'fr': "🤖 Restaure tes vieilles photos avec l’IA – comme si elles étaient récentes !",
-    'it': "🤖 Ripristina vecchie foto con l’AI – come se fossero scattate ieri!",
-    'es': "🤖 Restaura fotos antiguas con IA – como si se tomaran ayer!",
-    'nl': "🤖 Herstel oude foto’s met AI – alsof ze gisteren zijn gemaakt!",
-    'sv': "🤖 Återställ gamla foton med AI – som om de togs igår!",
-    'fi': "🤖 Palauta vanhat kuvat tekoälyllä – kuin ne olisi otettu eilen!",
-    'no': "🤖 Gjenopprett gamle bilder med AI – som om de ble tatt i går!",
-    'he': "🤖 שחזר תמונות ישנות בעזרת בינה מלאכותית – כאילו צולמו אתמול!",
-    'ko': "🤖 AI로 오래된 사진을 복원하세요 — 마치 어제 찍은 듯!",
-    'ja': "🤖 AIで古い写真を修復 — まるで昨日撮ったように！",
-    'cs': "🤖 Obnov staré fotky pomocí AI – jako by byly foceny včera!",
-    'sk': "🤖 Obnov staré fotky pomocou AI – akoby boli včerajšie!",
-    'sl': "🤖 Obnovi stare fotografije z AI – kot da so bile posnete včeraj!",
-    'pl': "🤖 Odnów stare zdjęcia dzięki AI – jakby zrobione wczoraj!",
-    'pt': "🤖 Restaure fotos antigas com IA – como se fossem de ontem!",
-    'hr': "🤖 Oživi stare fotografije pomoću AI – kao da su snimljene jučer!",
-    'ar': "🤖 استعد صورك القديمة بالذكاء الاصطناعي – كأنها التُقطت بالأمس!",
-    'be': "🤖 Аднаві старыя фота з дапамогай AI — нібы яны зроблены ўчора!",
-    'ca': "🤖 Restaura fotos antigues amb IA – com si fossin d’ahir!",
-    'hu': "🤖 Hozd vissza régi fotóid AI-val – mintha tegnap készültek volna!",
-    'id': "🤖 Pulihkan foto lama dengan AI – seolah diambil kemarin!",
-    'ms': "🤖 Pulihkan gambar lama dengan AI – seolah-olah diambil semalam!",
-    'fa': "🤖 بازسازی عکس‌های قدیمی با هوش مصنوعی – گویی دیروز گرفته شده‌اند!",
-    'ro': "🤖 Restaurează fotografii vechi cu AI – ca și cum ar fi de ieri!",
-    'sr': "🤖 Обнови старе фотографије уз AI – као да су сликане јуче!",
-    'tr': "🤖 Eski fotoğraflarını AI ile yenile — sanki dün çekilmiş gibi!",
-    'uk': "🤖 Віднови старі фото з AI — ніби зроблені вчора!",
-    'uz': "🤖 Eski suratlarni AI yordamida tikla — go‘yo kecha olingandek!",
-    'hi': "🤖 पुरानी तस्वीरें AI से बहाल करें – जैसे कल ही ली गई हों!",
-    'vi': "🤖 Khôi phục ảnh cũ bằng AI – như thể chụp hôm qua!",
-    'th': "🤖 คืนชีวิตให้ภาพเก่าด้วย AI – เหมือนถ่ายเมื่อวาน!",
-    'zh': "🤖 用AI修复旧照片 — 仿佛昨天拍的！",
-    'el': "🤖 Επανέφερε παλιές φωτογραφίες με AI – σαν να τραβήχτηκαν χθες!"
-}
-
-
-NAMES = {
-    'ru': 'Фото Реставратор AI',
-    'en': 'Photo Restorer AI',
-    'kk': 'Фото Қалпына Келтіруші AI',
-    'de': 'Foto Restaurator KI',
-    'fr': 'Restauration Photo IA',
-    'it': 'Restauratore Foto AI',
-    'es': 'Restaurador de Fotos IA',
-    'nl': 'Foto Restaurator AI',
-    'sv': 'Foto Restaurerare AI',
-    'fi': 'Valokuvien Entisöijä AI',
-    'no': 'Foto Restauratør AI',
-    'he': 'משחזר תמונות בינה מלאכותית',
-    'ko': '사진 복원 AI',
-    'ja': '写真修復AI',
-    'cs': 'AI Obnovovač Fotografií',
-    'sk': 'AI Reštaurátor Fotografií',
-    'sl': 'AI Restavrator Fotografij',
-    'pl': 'AI Restaurator Zdjęć',
-    'pt': 'Restaurador de Fotos IA',
-    'hr': 'AI Restaurator Fotografija',
-    'ar': 'مرمم الصور بالذكاء الاصطناعي',
-    'be': 'AI Рэстаўратар Фотаздымкаў',
-    'ca': 'Restaurador de Fotos IA',
-    'hu': 'AI Fotórestaurátor',
-    'id': 'AI Pemulih Foto',
-    'ms': 'Pemulih Foto AI',
-    'fa': 'بازسازی‌کننده عکس هوش مصنوعی',
-    'ro': 'Restaurator Foto IA',
-    'sr': 'AI Рестауратор Фотографија',
-    'tr': 'Fotoğraf Restoratörü AI',
-    'uk': 'Фото Реставратор AI',
-    'uz': 'AI Foto Tiklovchi',
-    'hi': 'फोटो पुनर्स्थापक AI',
-    'vi': 'Trình Phục Hồi Ảnh AI',
-    'th': 'ผู้บูรณะภาพถ่าย AI',
-    'zh': '照片修复AI',
-    'el': 'Αποκαταστάτης Φωτογραφιών AI',
+    'ru': "📸 AI-фоторедактор: загрузи фото ➜ опиши задачу ➜ получи идеальную обработку от Nano Banana 🍌✨",
+    'en': "📸 AI photo editor: upload a photo ➜ describe what you need ➜ get a perfect result from Nano Banana 🍌✨",
+    'kk': "📸 AI-фото өңдеу: фотосуретті жүкте ➜ тапсырманы жаз ➜ Nano Banana керемет нәтиже береді 🍌✨",
+    'de': "📸 KI-Fotobearbeitung: Foto hochladen ➜ Wunsch beschreiben ➜ perfektes Ergebnis von Nano Banana erhalten 🍌✨",
+    'fr': "📸 Éditeur photo IA : envoie ta photo ➜ décris la demande ➜ reçois un résultat parfait de Nano Banana 🍌✨",
+    'it': "📸 Editor foto AI: carica la foto ➜ descrivi la richiesta ➜ ottieni un risultato perfetto da Nano Banana 🍌✨",
+    'es': "📸 Editor de fotos con IA: sube una foto ➜ describe lo que quieres ➜ recibe un resultado perfecto de Nano Banana 🍌✨",
+    'nl': "📸 AI-fotobewerker: upload een foto ➜ beschrijf je wens ➜ krijg een perfect resultaat van Nano Banana 🍌✨",
+    'sv': "📸 AI-fotoredigerare: ladda upp en bild ➜ beskriv vad du vill göra ➜ få ett perfekt resultat från Nano Banana 🍌✨",
+    'fi': "📸 AI-kuvamuokkaus: lataa kuva ➜ kerro mitä haluat ➜ saat täydellisen tuloksen Nano Bananalta 🍌✨",
+    'no': "📸 AI-bilderedigerer: last opp et bilde ➜ beskriv oppgaven ➜ få et perfekt resultat fra Nano Banana 🍌✨",
+    'he': "📸 עורך תמונות ב-AI: העלה תמונה ➜ תאר מה צריך ➜ קבל תוצאה מושלמת מ-Nano Banana 🍌✨",
+    'ko': "📸 AI 사진 편집기: 사진 업로드 ➜ 원하는 수정 설명 ➜ Nano Banana가 완벽하게 처리해드립니다 🍌✨",
+    'ja': "📸 AI写真編集: 写真をアップ ➜ 依頼内容を入力 ➜ Nano Banana が完璧に仕上げます 🍌✨",
+    'cs': "📸 AI editor fotek: nahraj fotku ➜ popiš úpravu ➜ získej perfektní výsledek od Nano Banana 🍌✨",
+    'sk': "📸 AI editor fotiek: nahraj fotku ➜ opíš, čo potrebuješ ➜ získaj dokonalý výsledok od Nano Banana 🍌✨",
+    'sl': "📸 AI urejanje fotografij: naloži fotografijo ➜ opiši željo ➜ prejmi popoln rezultat Nano Banana 🍌✨",
+    'pl': "📸 Edytor zdjęć AI: prześlij zdjęcie ➜ opisz zadanie ➜ otrzymaj perfekcyjny efekt od Nano Banana 🍌✨",
+    'pt': "📸 Editor de fotos com IA: envie a foto ➜ descreva o que deseja ➜ receba um resultado perfeito da Nano Banana 🍌✨",
+    'hr': "📸 AI uređivanje fotografija: učitaj fotku ➜ opiši zadatak ➜ dobij savršen rezultat Nano Banana 🍌✨",
+    'ar': "📸 محرّر صور بالذكاء الاصطناعي: ارفع صورة ➜ اكتب ما تريد ➜ احصل على نتيجة مثالية من Nano Banana 🍌✨",
+    'be': "📸 AI-фота рэдактар: загрузі фота ➜ апішы задачу ➜ атрымай ідэальны вынік ад Nano Banana 🍌✨",
+    'ca': "📸 Editor de fotos amb IA: puja una foto ➜ descriu el que vols ➜ rep un resultat perfecte de Nano Banana 🍌✨",
+    'hu': "📸 AI fotószerkesztő: tölts fel egy képet ➜ írd le a kérést ➜ tökéletes eredményt kapsz a Nano Bananától 🍌✨",
+    'id': "📸 Editor foto AI: unggah foto ➜ jelaskan kebutuhan ➜ dapatkan hasil sempurna dari Nano Banana 🍌✨",
+    'ms': "📸 Editor foto AI: muat naik gambar ➜ jelaskan tugasan ➜ dapatkan hasil sempurna daripada Nano Banana 🍌✨",
+    'fa': "📸 ویرایشگر عکس با هوش مصنوعی: عکس را آپلود کن ➜ توضیح بده چه می‌خواهی ➜ نتیجه‌ای عالی از Nano Banana بگیر 🍌✨",
+    'ro': "📸 Editor foto AI: încarcă o poză ➜ descrie ce dorești ➜ primește un rezultat perfect de la Nano Banana 🍌✨",
+    'sr': "📸 AI уређивање фотографија: отпреми слику ➜ опиши задатак ➜ добиј савршен резултат од Nano Banana 🍌✨",
+    'tr': "📸 AI foto düzenleme: fotoğraf yükle ➜ isteğini yaz ➜ Nano Banana’dan kusursuz sonuç al 🍌✨",
+    'uk': "📸 AI-фоторедактор: завантаж фото ➜ опиши задачу ➜ отримай ідеальний результат від Nano Banana 🍌✨",
+    'uz': "📸 AI-foto tahrirlash: surat yuklang ➜ vazifani yozing ➜ Nano Banana’dan mukammal natija oling 🍌✨",
+    'hi': "📸 AI फोटो एडिटर: फोटो अपलोड करें ➜ अपनी रिक्वेस्ट लिखें ➜ Nano Banana से परफ़ेक्ट रिज़ल्ट पाएं 🍌✨",
+    'vi': "📸 Trình chỉnh sửa ảnh AI: tải ảnh lên ➜ mô tả yêu cầu ➜ nhận kết quả hoàn hảo từ Nano Banana 🍌✨",
+    'th': "📸 ตัวแก้ไขรูปด้วย AI: อัปโหลดรูป ➜ อธิบายสิ่งที่ต้องการ ➜ รับผลงานสุดเป๊ะจาก Nano Banana 🍌✨",
+    'zh': "📸 AI 照片编辑：上传照片 ➜ 描述你的需求 ➜ 获取 Nano Banana 的完美效果 🍌✨",
+    'el': "📸 Επεξεργασία φωτογραφιών με AI: ανέβασε φωτογραφία ➜ περιέγραψε το αίτημα ➜ πάρε άψογο αποτέλεσμα από το Nano Banana 🍌✨",
 }
 
 

@@ -61,15 +61,6 @@ async def cmd_set_description(message: types.Message):
             else:
                 print("Короткое описание для бота установлено ✅")
 
-        # установка имени бота на разных языках
-        for lang, name in NAMES.items():
-            try:
-                await bot.set_my_name(name=name, language_code=lang)
-            except Exception as e:
-                print(f"Ошбика установки имени для языка {lang} - {e}")
-            else:
-                print("Название бота установлено ✅")
-
 
 # ------------------------------------------------------------------------ ЛОГИКА --------------------------------------------------------
 
