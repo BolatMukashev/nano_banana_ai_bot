@@ -10,7 +10,7 @@ from languages import get_texts
 from config import TELEGRAM_BOT_TOKEN, AMOUNT, ADMINS, ADMIN_ID
 from photo_restorer import PhotoRestorer
 from ydb_models import *
-from languages.desc import DESCRIPTIONS, SHORT_DESCRIPTIONS, NAMES
+from languages.desc import DESCRIPTIONS, SHORT_DESCRIPTIONS
 
 
 # ------------------------------------------------------------------------ НАСТРОЙКА --------------------------------------------------------
