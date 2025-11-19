@@ -90,6 +90,10 @@ async def handle_photo_or_document(message: types.Message):
     texts = await get_texts(user_lang)
     caption = message.caption
 
+    if not caption:
+        await message.answer(texts["TEXT"]["error_no_caption"])
+        return
+
     # Определяем тип вложения
     if message.photo:
         file_id = message.photo[-1].file_id

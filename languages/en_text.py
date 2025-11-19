@@ -16,6 +16,7 @@ TEXT = {
                         "Please try sending the photo again.",
 
     "error_not_image": "⚠️ Please send a JPG or PNG image with a description.",
+    "error_no_caption": "⚠️ The photo must include a caption",
 
     "payment": {
         "label": "Edit photo",
